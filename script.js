@@ -69,7 +69,7 @@ $("abyssBtn").addEventListener("click", async () => {
       </div>
       <div class="final-space"></div>
       <div id="found" class="found hidden">見つけた。</div>
-      <div id="watching" class="watching hidden">あなたは、もう見つかっています・・・</div>
+      <div id="watching" class="watching hidden">あなたは既に見られています・・・</div>
       <img id="horrorImage" class="final-image hidden" src="cthulhu_final.png" alt="">
     </section>`;
   $("scene").classList.remove("fade-out");
