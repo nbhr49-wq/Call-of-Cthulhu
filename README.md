@@ -57,3 +57,10 @@ BGMは著作権・利用規約を確認したうえで `bgm.mp3` として配置
 ### v9 final
 - Added `?v=9` cache-busting to the final image URL so the latest `cthulhu_final.png` is requested instead of a cached older image.
 - Keeps the approved final artwork and the very quiet BGM (maximum volume 0.15).
+
+
+### v10 changes
+- Final artwork now fills the entire viewport (`100vw` × `100vh`) using `object-fit: cover`.
+- Final artwork is displayed at full opacity/brightness instead of the previous dimmed 0.55 opacity.
+- Final scene uses only the approved artwork, avoiding duplicate text overlays.
+- Added `?v=10` cache-busting to the final image URL.

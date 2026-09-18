@@ -59,29 +59,15 @@ $("abyssBtn").addEventListener("click", async () => {
   document.body.classList.add("abyss-bg");
   $("scene").classList.add("fade-out");
   await sleep(1900);
-
-  // 3ページ目を同一HTML内で表示
+  // 3ページ目：承認済みの最終画像を全面表示
   $("scene").innerHTML = `
     <section class="panel final-panel">
-      <div class="final-title">
-        <span class="line1">ようこそ</span>
-        <span class="line2">クトゥルフの世界へ</span>
-      </div>
-      <div class="final-space"></div>
-      <div id="found" class="found hidden">見つけた。</div>
-      <div id="watching" class="watching hidden">あなたは既に見られています・・・</div>
-      <img id="horrorImage" class="final-image hidden" src="cthulhu_final.png" alt="">
+      <img id="horrorImage" class="final-image hidden" src="cthulhu_final.png?v=10" alt="">
     </section>`;
   $("scene").classList.remove("fade-out");
 
+  // 余韻のあと、最終画像をゆっくり全面に浮かび上がらせる
   await sleep(5200);
-  $("found").classList.remove("hidden");
-  $("scene").classList.add("flash");
-  await sleep(800);
-  $("scene").classList.remove("flash");
-  await sleep(2300);
-  $("watching").classList.remove("hidden");
-  await sleep(5000);
   $("horrorImage").classList.remove("hidden");
 });
 
