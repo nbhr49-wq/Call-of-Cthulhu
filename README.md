@@ -37,3 +37,6 @@ BGMは著作権・利用規約を確認したうえで `bgm.mp3` として配置
 
 ### v5 changes
 - Final line changed to 「あなたは既に見られています・・・」.
+
+### v6 changes
+- BGM maximum playback volume reduced from 0.60 to 0.30; slow fade-in timing remains approximately 12 seconds.
