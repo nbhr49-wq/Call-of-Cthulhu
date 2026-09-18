@@ -44,7 +44,7 @@ $("listenRollBtn").addEventListener("click", async () => {
     let v=0;
     const timer=setInterval(()=>{
       v += 0.005;
-      bgm.volume=Math.min(v,0.30);
+      bgm.volume=Math.min(v,0.15);
       if(v>=0.60) clearInterval(timer);
     },100);
   } catch(e) {

@@ -46,5 +46,5 @@ body{background:radial-gradient(ellipse at center,#111719 0%,#050708 48%,#000 10
 .final-title .line1,.final-title .line2{display:block}
 .final-title .line1{font-size:.78em}
 .final-title .line2{font-size:1em}
-.final-image{position:absolute;left:50%;top:50%;width:auto;height:auto;max-width:100%;max-height:100%;transform:translate(-50%,-50%);object-fit:contain;opacity:0;z-index:0;filter:brightness(.48) saturate(.8);animation:imageReveal 4s ease forwards}.final-title,.final-space,.found,.watching{position:relative;z-index:2}
+.final-image{position:absolute;left:50%;top:50%;width:auto;height:auto;max-width:100%;max-height:100%;transform:translate(-50%,-50%);object-fit:contain;opacity:0;z-index:0;filter:brightness(.42) saturate(.8);animation:imageReveal 4s ease forwards}.final-title,.final-space,.found,.watching{position:relative;z-index:2}
 @keyframes imageReveal{from{opacity:0;filter:brightness(.2) blur(10px)}to{opacity:.55;filter:brightness(.48) saturate(.8) blur(0)}}

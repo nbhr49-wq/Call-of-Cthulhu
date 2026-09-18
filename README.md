@@ -40,3 +40,15 @@ BGMは著作権・利用規約を確認したうえで `bgm.mp3` として配置
 
 ### v6 changes
 - BGM maximum playback volume reduced from 0.60 to 0.30; slow fade-in timing remains approximately 12 seconds.
+
+
+### v7 changes
+- BGM maximum playback volume reduced from 0.30 to 0.15; fade-in remains approximately 12 seconds.
+- Final artwork replaced with an eye-focused crop so the eye is larger and more immediately readable.
+- Final scene text remains separate HTML text rather than relying on text embedded in the artwork.
+
+
+### Final approved image version
+- Uses the latest approved eye-focused final artwork.
+- Final scene uses the artwork's own typography without duplicate HTML overlays.
+- BGM maximum volume is 0.15 with the slow fade-in preserved.
