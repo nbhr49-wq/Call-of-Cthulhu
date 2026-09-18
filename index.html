@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>クトゥルフ神話TRPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fog fog-a"></div>
+  <div class="fog fog-b"></div>
+  <div class="grain"></div>
+
+  <main id="scene" class="scene scene-1">
+    <section id="intro" class="panel">
+      <div id="mystery" class="mystery">霧の中にうっすらと何かが見える</div>
+      <button id="spotBtn" class="roll-btn">目星を振る</button>
+
+      <div id="roll" class="roll hidden">
+        <div class="skill">目星　1D100</div>
+        <div id="rollNumber" class="roll-number">??</div>
+        <div id="rollResult" class="roll-result"></div>
+      </div>
+
+      <div id="title" class="title hidden">
+        <div class="title-main">クトゥルフ神話TRPG</div>
+        <div class="title-sub">あなたは、何かを見つけてしまった。</div>
+      </div>
+
+      <button id="listenBtn" class="next-btn hidden">何かが聞こえる気がする・・・・・</button>
+
+      <div id="listenArea" class="listen-area hidden">
+        <button id="listenRollBtn" class="roll-btn ghost">聞き耳を振る</button>
+        <div id="listenRoll" class="roll hidden">
+          <div class="skill">聞き耳　1D100</div>
+          <div id="listenNumber" class="roll-number">??</div>
+          <div id="listenResult" class="roll-result"></div>
+        </div>
+      </div>
+
+      <button id="abyssBtn" class="next-btn hidden">深淵へ……</button>
+    </section>
+  </main>
+
+  <audio id="bgm" loop preload="auto">
+    <source src="bgm.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
