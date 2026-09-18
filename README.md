@@ -52,3 +52,8 @@ BGMは著作権・利用規約を確認したうえで `bgm.mp3` として配置
 - Uses the latest approved eye-focused final artwork.
 - Final scene uses the artwork's own typography without duplicate HTML overlays.
 - BGM maximum volume is 0.15 with the slow fade-in preserved.
+
+
+### v9 final
+- Added `?v=9` cache-busting to the final image URL so the latest `cthulhu_final.png` is requested instead of a cached older image.
+- Keeps the approved final artwork and the very quiet BGM (maximum volume 0.15).
